@@ -5,7 +5,7 @@ function HeaderBar() {
   return (
     <div className="HeaderBar">
       <div className="HeaderTitle">
-        <div className="Text-Header">
+        <div className="Text-Header-MiniTitle">
           jamesjam.es
         </div>
       </div>
@@ -55,7 +55,7 @@ function HeaderLarge() {
       </div>
       <div className="LRmargin1rem">
         <div className="Text-Header">
-        <p>Computer science student and professional Jägerbomber at the University of Manchester, whose current focus is in iOS app development. My current aspiration is to complete an internship in this or a similar field, with the intention of beginning a career in the field. [PUT IN SEPARATE CAREER ASPIRATION SECTION BEFORE PORTFOLIO ITEMS]</p>
+        <p>A computer science student at the University of Manchester, whose current focus is on iOS app development. My current aspiration is to complete an internship in this or a similar field, with the intention of beginning a career in the field.</p>
         </div>
       </div>
     </div>
@@ -67,14 +67,21 @@ function HeaderLarge() {
 function PortfolioItemDesc() {
   return (
     <div className="PortfolioItem-Desc">
-      <div className="Text-SubTitle">
-      CarbonCamera - iOS App
-      </div>
-      <div className="Text-Paragraph">
-        Take a photo of your food or drink to see its carbon footprint!<br />
+      <p className="Text-SubTitle">
+      CarbonCamera<br />iOS App
+      </p>
+      <p className="Text-Paragraph">
+        Take a photo of your food or drink to see its carbon footprint!
+      </p>
+      <p className="Text-Paragraph">
         CarbonCamera is an iOS app which shows the carbon footprint of food or drinks, detected in a photo using the ResNet50 neural network.
-        Take a photo of your snack or meal and compare its carbon emissions to other suggested foods.
-      </div>
+        Take a photo of your snack or meal using the app to see its carbon emissions, and compare its environmental impact to other similar suggested foods.
+      </p>
+      <p className="Text-Paragraph">
+        Written in the Swift language, making use of UIKit and CoreML.
+      </p>
+      <a className="Text-Paragraph-Link" href="https://github.com/jamesbungay/CarbonCamera">GitHub</a>
+      <a className="Text-Paragraph-Link" href="https://youtu.be/yVFjdLtYHbE">10 second video demo</a>
     </div>
   )
 }
