@@ -171,6 +171,13 @@
   color: white;
 }
 
+.Text-Footer-Link {
+  font-family: graphik,-apple-system,helvetica,futura,sans-serif;
+  font-size: 0.8rem;
+  color: white;
+  text-decoration: underline;
+}
+
 .LRmargin1rem {
   margin-left: 1rem;
   margin-right: 1rem;

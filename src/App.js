@@ -111,7 +111,7 @@ function FooterBar() {
     <div className="FooterBar">
       <FooterBackground />
       <div className="Text-Footer">
-        jamesjam.es is open source. Designed from scratch by James Bungay.
+        jamesjam.es is <a className="Text-Footer-Link" href="https://github.com/jamesbungay/jamesbungay.github.io">open source</a>. Designed from scratch by James Bungay.
       </div>
     </div>
   )
