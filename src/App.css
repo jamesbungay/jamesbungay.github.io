@@ -39,6 +39,11 @@
   margin-left: 0.7rem;
 }
 
+.SocialButton:hover {
+  filter: brightness(0.8);
+  transition: filter 0.1s;
+}
+
 .HeaderLarge {
   position: relative;
   width: 100%;
@@ -51,7 +56,7 @@
   left: -50%;
   right: -50%;
   bottom: -6rem;
-  background-image: url("./header-giant.jpg");
+  background-image: linear-gradient(to right, #CA00D2, #dc268d);
   background-repeat: no-repeat;
   background-size: cover;
   /* background-size: 50%; */
