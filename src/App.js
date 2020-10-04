@@ -64,43 +64,31 @@ function HeaderLarge() {
 
 
 
-function PortfolioItemDesc() {
+function PortfolioItemDesc(props) {
   return (
     <div className="PortfolioItem-Desc">
-      <p className="Text-SubTitle">
-      CarbonCamera<br />iOS App
-      </p>
-      <p className="Text-Paragraph">
-        Take a photo of your food or drink to see its carbon footprint!
-      </p>
-      <p className="Text-Paragraph">
-        CarbonCamera is an iOS app which shows the carbon footprint of food or drinks, detected in a photo using the ResNet50 neural network.
-        Take a photo of your snack or meal using the app to see its carbon emissions, and compare its environmental impact to other similar suggested foods.
-      </p>
-      <p className="Text-Paragraph">
-        Written in the Swift language, making use of UIKit and CoreML.
-      </p>
-      <a className="Text-Paragraph-Link" href="https://github.com/jamesbungay/CarbonCamera">GitHub</a>
-      <a className="Text-Paragraph-Link" href="https://youtu.be/yVFjdLtYHbE">10 second video demo</a>
+      {props.bodyContent}
     </div>
   )
 }
 
-function PortfolioItemImage() {
+function PortfolioItemImage(props) {
   return (
     <div className="PortfolioItem-Image">
-      <img alt="GitHub"
-           src={require("./portfolio_carboncamera.png")}
-           className="PortfolioImage" />
+      {props.imageObj}
     </div>
   )
 }
 
-function PortfolioItem() {
+function PortfolioItem(props) {
   return (
     <div className="PortfolioItem">
-    <PortfolioItemDesc />
-    <PortfolioItemImage />
+    <PortfolioItemDesc
+      bodyContent={props.bodyContent}
+    />
+    <PortfolioItemImage
+      imageObj={props.imageObj}
+    />
     </div>
   )
 }
@@ -131,8 +119,61 @@ function App() {
     <div className="App">
       <HeaderLarge />
       <br /><br /><br /><br /><br /><br />
-      <PortfolioItem />
-      <PortfolioItem />
+
+      <PortfolioItem
+        bodyContent={
+          <div>
+            <p className="Text-SubTitle">
+            CarbonCamera<br />iOS App
+            </p>
+            <p className="Text-Paragraph">
+              Take a photo of your food or drink to see its carbon footprint!
+            </p>
+            <p className="Text-Paragraph">
+              CarbonCamera is an iOS app which shows the carbon footprint of food or drinks, detected in a photo using the ResNet50 neural network.
+              Take a photo of your snack or meal using the app to see its carbon emissions, and compare its environmental impact to other similar suggested foods.
+            </p>
+            <p className="Text-Paragraph">
+              Written in the Swift language, making use of UIKit and CoreML.
+            </p>
+            <a className="Text-Paragraph-Link" href="https://github.com/jamesbungay/CarbonCamera">GitHub</a>
+            <a className="Text-Paragraph-Link" href="https://youtu.be/yVFjdLtYHbE">10 second video demo</a>
+          </div>
+        }
+        imageObj={
+          <img alt="CarbonCamera app shown on two iPhones"
+               src={require("./portfolio_carboncamera.png")}
+               className="PortfolioImage" />
+        }
+      />
+
+      <PortfolioItem
+        bodyContent={
+          <div>
+            <p className="Text-SubTitle">
+            Meteor!<br />Java Game
+            </p>
+            <p className="Text-Paragraph">
+              Take a photo of your food or drink to see its carbon footprint!
+            </p>
+            <p className="Text-Paragraph">
+              CarbonCamera is an iOS app which shows the carbon footprint of food or drinks, detected in a photo using the ResNet50 neural network.
+              Take a photo of your snack or meal using the app to see its carbon emissions, and compare its environmental impact to other similar suggested foods.
+            </p>
+            <p className="Text-Paragraph">
+              Written in the Swift language, making use of UIKit and CoreML.
+            </p>
+            <a className="Text-Paragraph-Link" href="https://github.com/jamesbungay/CarbonCamera">GitHub</a>
+            <a className="Text-Paragraph-Link" href="https://youtu.be/yVFjdLtYHbE">10 second video demo</a>
+          </div>
+        }
+        imageObj={
+          <img alt="Image of the Meteor! game being played"
+               src={require("./portfolio_carboncamera.png")}
+               className="PortfolioImage" />
+        }
+      />
+
       <br />
       <FooterBar />
     </div>
