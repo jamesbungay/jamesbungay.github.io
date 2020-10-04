@@ -75,19 +75,24 @@
   border-color: red;
   border-width: 3px;
   margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
   max-width: 1000px;
 }
 
 .PortfolioItem-Desc {
   float: left;
   text-align: left;
-  width: 53%;
+  width: 53.5%;
 }
 
 .PortfolioItem-Image {
   float: right;
   width: 45%;
+}
+
+.PortfolioImage {
+  max-height: 25rem;
+  max-width: 100%;
 }
 
 @media screen and (min-width: 1001px) {
@@ -102,17 +107,15 @@
     width: 100%;
     padding-bottom: 1.5rem;
     padding-left: 0rem;
-    /* max-width: 800px; */
   }
 
   .PortfolioItem-Image {
     width: 100%;
   }
-}
 
-.PortfolioImage {
-  max-height: 25rem;
-  max-width: 100%;
+  .PortfolioItem {
+    max-width: 800px;
+  }
 }
 
 
