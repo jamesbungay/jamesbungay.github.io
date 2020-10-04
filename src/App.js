@@ -6,7 +6,7 @@ function HeaderBar() {
     <div className="HeaderBar">
       <div className="HeaderTitle">
         <div className="Text-Header">
-          James Bungay | jamesjam.es
+          jamesjam.es
         </div>
       </div>
       <div className="HeaderSocial">
@@ -71,7 +71,7 @@ function PortfolioItemDesc() {
       CarbonCamera - iOS App
       </div>
       <div className="Text-Paragraph">
-        Take a photo of a food or drink to see its carbon footprint!<br />
+        Take a photo of your food or drink to see its carbon footprint!<br />
         CarbonCamera is an iOS app which shows the carbon footprint of food or drinks, detected in a photo using the ResNet50 neural network.
         Take a photo of your snack or meal and compare its carbon emissions to other suggested foods.
       </div>
