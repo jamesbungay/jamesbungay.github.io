@@ -110,6 +110,9 @@ function FooterBar() {
   return (
     <div className="FooterBar">
       <FooterBackground />
+      <div className="Text-Footer">
+        jamesjam.es is open source. Designed from scratch by James Bungay.
+      </div>
     </div>
   )
 }
@@ -122,6 +125,8 @@ function App() {
       <br /><br /><br /><br /><br /><br />
       <PortfolioItem />
       <PortfolioItem />
+      <br />
+      <FooterBar />
     </div>
   );
 }

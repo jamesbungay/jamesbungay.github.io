@@ -113,25 +113,20 @@
 
 
 .FooterBar {
-  height: 4rem;
   position: relative;
   width: 100%;
-  text-align: center;
+  text-align: left;
+  padding: 5px;
+  padding-top: 15px;
 }
 
 .FooterBackground {
   position: absolute;
   top: 0%;
-  left: -20%;
-  right: -20%;
-  bottom: -1rem;
-  background-image: url("./header-giant.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  /* background-size: 50%; */
-  background-position: 50% 0%;
-  border-top-left-radius: 50%;
-  border-top-right-radius: 50%;
+  left: -10px;
+  right: -10px;
+  bottom: -10px;
+  background-image: linear-gradient(to right, #dc268d, #de03e7);
   z-index: -1;
 }
 
@@ -168,6 +163,12 @@
   font-family: graphik,-apple-system,helvetica,futura,sans-serif;
   font-size: 1rem;
   color: #313639;
+}
+
+.Text-Footer {
+  font-family: graphik,-apple-system,helvetica,futura,sans-serif;
+  font-size: 0.8rem;
+  color: white;
 }
 
 .LRmargin1rem {
