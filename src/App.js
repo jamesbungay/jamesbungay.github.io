@@ -17,14 +17,6 @@ function HeaderBar() {
 
 }
 
-function SocialButton() {
-  return (
-    <div>
-
-    </div>
-  )
-}
-
 function SocialLinks() {
   return (
     <div className="SocialLinks">
@@ -70,15 +62,57 @@ function HeaderLarge() {
   )
 }
 
+
+
+function PortfolioItemDesc() {
+  return (
+    <div className="PortfolioItem-Desc">
+      <div className="Text-SubTitle">
+      CarbonCamera - iOS App
+      </div>
+      <div className="Text-Paragraph">
+        Take a photo of a food or drink to see its carbon footprint!<br />
+        CarbonCamera is an iOS app which shows the carbon footprint of food or drinks, detected in a photo using the ResNet50 neural network.
+        Take a photo of your snack or meal and compare its carbon emissions to other suggested foods.
+      </div>
+    </div>
+  )
+}
+
+function PortfolioItemImage() {
+  return (
+    <div className="PortfolioItem-Image">
+      <img alt="GitHub"
+           src={require("./portfolio_carboncamera.png")}
+           className="PortfolioImage" />
+    </div>
+  )
+}
+
 function PortfolioItem() {
   return (
     <div className="PortfolioItem">
-    Placeholder portfolio item
+    <PortfolioItemDesc />
+    <PortfolioItemImage />
     </div>
   )
 }
 
 
+
+function FooterBackground() {
+  return (
+    <div className="FooterBackground"></div>
+  )
+}
+
+function FooterBar() {
+  return (
+    <div className="FooterBar">
+      <FooterBackground />
+    </div>
+  )
+}
 
 
 function App() {

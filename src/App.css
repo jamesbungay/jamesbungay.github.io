@@ -11,6 +11,7 @@
 
 .HeaderBar {
   height: 3rem;
+  overflow: hidden;
 }
 
 .HeaderSocial {
@@ -23,10 +24,11 @@
   text-align: left;
   vertical-align: middle;
   line-height: 3rem;
+  padding-left: 0.7rem;
 }
 
 .SocialLinks {
-  padding-right: 0.5rem;
+  padding-right: 0.7rem;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
 }
@@ -34,7 +36,7 @@
 .SocialButton {
   height: 2rem;
   width: 2rem;
-  padding-left: 0.5rem;
+  padding-left: 0.7rem;
 }
 
 .HeaderLarge {
@@ -61,17 +63,78 @@
 
 
 .PortfolioItem {
-  height: 200px;
   border-style: solid;
+  /* Following line causes floating elements to take up space in the div: */
+  overflow: hidden;
   border-color: red;
   border-width: 3px;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
 }
+
+.PortfolioItem-Desc {
+  float: left;
+  text-align: left;
+  width: 60%;
+  min-width: 20rem;
+}
+
+.PortfolioItem-Image {
+  float: right;
+  width: 40%;
+  min-width: 20rem;
+}
+
+@media screen and (max-width: 1000px) {
+  .PortfolioItem-Desc {
+    width: 100%;
+    padding-bottom: 2rem;
+  }
+
+  .PortfolioItem-Image {
+    width: 100%;
+  }
+}
+
+.PortfolioImage {
+  max-height: 20rem;
+}
+
+
+
+.FooterBar {
+  height: 4rem;
+  position: relative;
+  width: 100%;
+  text-align: center;
+}
+
+.FooterBackground {
+  position: absolute;
+  top: 0%;
+  left: -20%;
+  right: -20%;
+  bottom: -1rem;
+  background-image: url("./header-giant.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-size: 50%; */
+  background-position: 50% 0%;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  z-index: -1;
+}
+
+
+
 
 
 
 .Text-MainTitle {
   font-family: graphik,-apple-system,helvetica,futura,sans-serif;
-  font-size: 3rem;
+  font-size: 4rem;
   font-weight: lighter;
   color: white;
   margin-left: 4rem;
@@ -88,13 +151,18 @@
 }
 
 .Text-SubTitle {
-
+  font-family: graphik,-apple-system,helvetica,futura,sans-serif;
+  font-size: 2.5rem;
+  font-weight: lighter;
+  color: #313639;
+  margin-top: 0.8rem;
+  margin-bottom: 0.8rem;
 }
 
 .Text-Paragraph {
   font-family: graphik,-apple-system,helvetica,futura,sans-serif;
   font-size: 1rem;
-  color: white;
+  color: #313639;
 }
 
 .LRmargin1rem {
