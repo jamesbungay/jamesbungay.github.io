@@ -48,6 +48,8 @@
   position: relative;
   width: 100%;
   text-align: center;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
 }
 
 .HeaderLargeBackground {

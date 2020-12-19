@@ -55,7 +55,8 @@ function HeaderLarge() {
       </div>
       <div className="LRmargin1rem">
         <div className="Text-Header">
-        <p>A computer science student at the University of Manchester, whose current focus is on iOS app development. I am looking for an internship in front-end software development, with the aspiration to begin a career in the field when I complete my studies in 2022.</p>
+        <p>A computer science student at the University of Manchester.</p>
+        <p>Student representative and ambassador.</p>
         </div>
       </div>
     </div>
@@ -147,6 +148,10 @@ function App() {
         }
       />
 
+      <br /><p className="Text-Paragraph">More projects to be featured soon!</p>
+      <br /><br />
+
+      {/*
       <PortfolioItem
         bodyContent={
           <div>
@@ -171,6 +176,7 @@ function App() {
                className="PortfolioImage" />
         }
       />
+      */}
 
       <br />
       <FooterBar />
