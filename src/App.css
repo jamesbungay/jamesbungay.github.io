@@ -82,7 +82,7 @@
 .PortfolioItem-Desc {
   float: left;
   text-align: left;
-  width: 53.5%;
+  width: 53.3%;
 }
 
 .PortfolioItem-Image {
@@ -134,7 +134,7 @@
   left: -10px;
   right: -10px;
   bottom: -10px;
-  background-image: linear-gradient(to right, #dc268d, #de03e7);
+  background-image: linear-gradient(to right, #333, #333);
   z-index: -1;
 }
 
