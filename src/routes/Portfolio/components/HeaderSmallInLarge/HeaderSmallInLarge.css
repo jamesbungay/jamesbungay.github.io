@@ -1,10 +1,6 @@
-.HeaderSmall {
-  padding: 10px;
-  height: 3em;
+.HeaderBar {
+  height: 3rem;
   overflow: hidden;
-  background-image: linear-gradient(to right, #CA00D2, #dc268d);
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .HeaderSocial {

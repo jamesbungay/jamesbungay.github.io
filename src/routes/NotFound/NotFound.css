@@ -1,4 +1,21 @@
-.App {
+.mainContent {
+  margin-top: 3em;
   text-align: center;
-  padding: 10px;
+}
+
+.mainContent h1 {
+  font-family: graphik,-apple-system,helvetica,futura,sans-serif;
+  font-size: 2.5em;
+  font-weight: 100;
+  color: #313639;
+  margin-top: 0.8em;
+  margin-bottom: 0.6em;
+}
+
+.mainContent p {
+  font-family: graphik,-apple-system,helvetica,futura,sans-serif;
+  font-size: 1em;
+  line-height: 1.33em;
+  font-weight: 300;
+  color: #313639;
 }

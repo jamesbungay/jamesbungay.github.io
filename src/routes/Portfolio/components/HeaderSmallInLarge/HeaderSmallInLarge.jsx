@@ -1,24 +1,24 @@
 import React from 'react';
 
-import './HeaderSmall.css';
+import './HeaderSmallInLarge.css';
 
-const HeaderSmall = () => {
+const HeaderSmallInLarge = () => {
   const SocialLinks = () => {
     return (
       <div className="SocialLinks">
         <a href="https://github.com/jamesbungay">
           <img alt="GitHub"
-               src={require("../../assets/social_github.png")}
+               src={require("../../../../assets/social_github.png")}
                className="SocialButton" />
         </a>
         <a href="mailto:james.bungay@icloud.com">
           <img alt="Email"
-               src={require("../../assets/social_email.png")}
+               src={require("../../../../assets/social_email.png")}
                className="SocialButton" />
         </a>
         <a href="https://www.linkedin.com/in/james-bungay/">
           <img alt="LinkedIn"
-               src={require("../../assets/social_linkedin.png")}
+               src={require("../../../../assets/social_linkedin.png")}
                className="SocialButton" />
         </a>
       </div>
@@ -26,7 +26,7 @@ const HeaderSmall = () => {
   };
 
   return (
-    <div className="HeaderSmall">
+    <div className="HeaderBar">
       <div className="HeaderTitle">
         <div className="Text-Header-MiniTitle">
           jamesjam.es
@@ -39,4 +39,4 @@ const HeaderSmall = () => {
   );
 };
 
-export default HeaderSmall;
+export default HeaderSmallInLarge;

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import HeaderSmall from '../../../../components/HeaderSmall';
+import HeaderSmallInLarge from '../HeaderSmallInLarge';
 
 import './HeaderLarge.css';
 
@@ -14,7 +14,7 @@ const HeaderLarge = () => {
   return (
     <div className="HeaderLarge">
       <HeaderLargeBackground />
-      <HeaderSmall />
+      <HeaderSmallInLarge />
       <div className="Text-MainTitle">
         <p>James Bungay</p>
       </div>
