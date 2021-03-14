@@ -1,6 +1,6 @@
 import React from 'react';
 import {
-  BrowserRouter,
+  BrowserRouter as Router,
   Switch,
   Route,
   Redirect
@@ -11,7 +11,7 @@ import NotFound from './routes/NotFound';
 
 function App() {
   return (
-    <BrowserRouter>
+    <Router basename={process.env.PUBLIC_URL}>
       <Switch>
         <Route path="/" exact>
           <Portfolio />
@@ -23,7 +23,7 @@ function App() {
           <Redirect to="/404" />
         </Route>
       </Switch>
-    </BrowserRouter>
+    </Router>
   );
 }
 
