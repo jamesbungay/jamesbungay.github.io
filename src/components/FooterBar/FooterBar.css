@@ -1,0 +1,30 @@
+.FooterBar {
+  position: relative;
+  width: 100%;
+  text-align: left;
+  padding: 5px;
+  padding-top: 15px;
+}
+
+.FooterBackground {
+  position: absolute;
+  top: 0%;
+  left: -10px;
+  right: -10px;
+  bottom: -10px;
+  background-image: linear-gradient(to right, #333, #333);
+  z-index: -1;
+}
+
+.Text-Footer {
+  font-family: graphik,-apple-system,helvetica,futura,sans-serif;
+  font-size: 0.8rem;
+  color: white;
+}
+
+.Text-Footer-Link {
+  font-family: graphik,-apple-system,helvetica,futura,sans-serif;
+  font-size: 0.8rem;
+  color: white;
+  text-decoration: underline;
+}

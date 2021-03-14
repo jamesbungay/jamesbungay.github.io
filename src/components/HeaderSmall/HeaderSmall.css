@@ -1,0 +1,43 @@
+.HeaderBar {
+  height: 3rem;
+  overflow: hidden;
+}
+
+.HeaderSocial {
+  float: right;
+}
+
+.HeaderTitle {
+  float: left;
+  height: 3rem;
+  text-align: left;
+  vertical-align: middle;
+  line-height: 3rem;
+  padding-left: 0.7rem;
+}
+
+.SocialLinks {
+  padding-right: 0.7rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.SocialButton {
+  height: 2rem;
+  width: 2rem;
+  margin-left: 0.7rem;
+}
+
+.SocialButton:hover {
+  filter: brightness(0.8);
+  transition: filter 0.1s;
+}
+
+.Text-Header-MiniTitle {
+  font-family: graphik,-apple-system,helvetica,futura,sans-serif;
+  font-size: 1.2rem;
+  font-weight: 300;
+  color: white;
+  max-width: 50rem;
+  margin: auto;
+}

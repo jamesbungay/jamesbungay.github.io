@@ -1,0 +1,47 @@
+.HeaderLarge {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.HeaderLargeBackground {
+  position: absolute;
+  top: -10px;
+  left: -50%;
+  right: -50%;
+  bottom: -6rem;
+  background-image: linear-gradient(to right, #CA00D2, #dc268d);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-size: 50%; */
+  background-position: 50% 0%;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  z-index: -1;
+}
+
+.Text-MainTitle {
+  font-family: graphik,-apple-system,helvetica,futura,sans-serif;
+  font-size: 4rem;
+  font-weight: lighter;
+  color: white;
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+
+.Text-Header {
+  font-family: graphik,-apple-system,helvetica,futura,sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+  font-weight: 200;
+  color: white;
+  max-width: 50rem;
+  margin: auto;
+}
+
+.LRmargin1rem {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
