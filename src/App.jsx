@@ -12,10 +12,10 @@ import RouteChangeTracker from './components/RouteChangeTracker';
 import Portfolio from './routes/Portfolio';
 import NotFound from './routes/NotFound';
 
-const TRACKING_ID = "UA-193123795-1";
-ReactGA.initialize(TRACKING_ID);
-
 function App() {
+  const TRACKING_ID = "UA-193123795-1";
+  ReactGA.initialize(TRACKING_ID);
+  
   return (
     <Router basename={process.env.PUBLIC_URL}>
       <RouteChangeTracker />
