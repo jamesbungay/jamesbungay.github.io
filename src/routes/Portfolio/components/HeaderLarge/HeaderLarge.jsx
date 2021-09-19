@@ -22,6 +22,7 @@ const HeaderLarge = () => {
         <div className="Text-Header">
         <p>A computer science student at the University of Manchester.</p>
         <p>Student representative and ambassador.</p>
+        <p>Interested in web development, iOS apps and health tech.</p>
         </div>
       </div>
     </div>
