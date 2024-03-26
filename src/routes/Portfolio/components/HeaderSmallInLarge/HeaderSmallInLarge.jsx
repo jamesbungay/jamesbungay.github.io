@@ -11,7 +11,7 @@ const HeaderSmallInLarge = () => {
                src={require("../../../../assets/social_github.png")}
                className="SocialButton" />
         </a>
-        <a href="mailto:james.bungay@icloud.com">
+        <a href="mailto:james@jamesjam.es">
           <img alt="Email"
                src={require("../../../../assets/social_email.png")}
                className="SocialButton" />
