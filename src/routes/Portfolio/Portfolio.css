@@ -32,3 +32,16 @@
   padding: 2px; */
   margin-right: 0.5rem;
 }
+
+.Text-Paragraph-Link-NoEmphasis {
+  font-family: graphik,-apple-system,helvetica,futura,sans-serif;
+  font-size: 1rem;
+  line-height: 1.33rem;
+  font-weight: 300;
+  color: #313639;
+  text-decoration: none;
+}
+
+.Text-Paragraph-Link-NoEmphasis:hover {
+  text-decoration: underline;
+}
