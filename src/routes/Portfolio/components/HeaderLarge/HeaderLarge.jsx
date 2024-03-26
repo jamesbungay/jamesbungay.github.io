@@ -20,9 +20,9 @@ const HeaderLarge = () => {
       </div>
       <div className="LRmargin1rem">
         <div className="Text-Header">
-        <p>A computer science student at the University of Manchester.</p>
-        <p>Student representative and ambassador.</p>
-        <p>Interested in web development, iOS apps and health tech.</p>
+          <p>Graduate Software Engineer at the BBC.</p>
+          <p>University of Manchester <a className={"HeroLink"} href={"https://www.grammarly.com/blog/alumna-alumnae-alumni-alumnus/"} target={"_blank"}>alum</a>, with a <a className={"HeroLink"} href={"https://pubmed.ncbi.nlm.nih.gov/38083026/"} target={"_blank"}>published dissertation</a>.</p>
+          <p>Interested in environmentally sustainable software, health tech, iOS apps, and more.</p>
         </div>
       </div>
     </div>

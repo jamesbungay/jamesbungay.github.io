@@ -45,3 +45,13 @@
   margin-left: 1rem;
   margin-right: 1rem;
 }
+
+.HeroLink {
+  color: white;
+  text-decoration: none;
+}
+
+.HeroLink:hover {
+  color: white;
+  text-decoration: underline;
+}

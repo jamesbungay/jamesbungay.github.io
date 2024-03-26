@@ -6,7 +6,7 @@ const HeaderSmall = () => {
   const SocialLinks = () => {
     return (
       <div className="SocialLinks">
-        <a href="https://github.com/jamesbungay">
+        <a href="https://github.com/jamesbungay" target={"_blank"}>
           <img alt="GitHub"
                src={require("../../assets/social_github.png")}
                className="SocialButton" />
@@ -16,7 +16,7 @@ const HeaderSmall = () => {
                src={require("../../assets/social_email.png")}
                className="SocialButton" />
         </a>
-        <a href="https://www.linkedin.com/in/james-bungay/">
+        <a href="https://www.linkedin.com/in/james-bungay/" target={"_blank"}>
           <img alt="LinkedIn"
                src={require("../../assets/social_linkedin.png")}
                className="SocialButton" />

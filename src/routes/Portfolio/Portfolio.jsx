@@ -40,7 +40,7 @@ const Portfolio = () => {
         }
       />
 
-      <br /><p className="Text-Paragraph">More projects to be featured soon!</p>
+      <br /><p className="Text-Paragraph">Find more projects on GitHub.</p>
       <br /><br />
 
       {/*
@@ -59,7 +59,7 @@ const Portfolio = () => {
             <p className="Text-Paragraph">
               Written in Java 11, making use of JavaFX.
             </p>
-            <a className="Text-Paragraph-Link" href="mailto:james.bungay@icloud.com?subject=Meteor%20Java%20game%20source%20code">Request Source Code</a>
+            <a className="Text-Paragraph-Link" href="mailto:james@jamesjam.es?subject=Meteor%20Java%20game%20source%20code">Request Source Code</a>
           </div>
         }
         imageObj={
