@@ -22,7 +22,7 @@ const HeaderLarge = () => {
         <div className="Text-Header">
           <p>Software Engineer at the BBC.</p>
           <p>University of Manchester <a className={"HeroLink"} href={"https://www.grammarly.com/blog/alumna-alumnae-alumni-alumnus/"} target={"_blank"}>alum</a>, with a <a className={"HeroLink"} href={"https://pubmed.ncbi.nlm.nih.gov/38083026/"} target={"_blank"}>published dissertation</a>.</p>
-          <p>Interested in environmentally sustainable software, health tech, iOS apps, and home IoT.</p>
+          <p>Interested in environmentally sustainable software, health tech, iOS apps, home IoT, and DevEx.</p>
         </div>
       </div>
     </div>
